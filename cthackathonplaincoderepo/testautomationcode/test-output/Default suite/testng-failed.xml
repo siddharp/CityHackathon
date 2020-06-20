@@ -9,7 +9,6 @@
           <include name="search"/>
           <include name="selecting"/>
           <include name="book"/>
-          <include name="searching"/>
           <include name="select"/>
           <include name="logout"/>
         </methods>
