@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43824" started-at="2020-06-20T10:30:23Z" finished-at="2020-06-20T10:31:07Z">
+  <suite name="Default suite" duration-ms="75732" started-at="2020-06-20T12:37:50Z" finished-at="2020-06-20T12:39:06Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43824" started-at="2020-06-20T10:30:23Z" finished-at="2020-06-20T10:31:07Z">
+    <test name="Default test" duration-ms="75732" started-at="2020-06-20T12:37:50Z" finished-at="2020-06-20T12:39:06Z">
       <class name="com.amzon.com.SampleTest">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.amzon.com.SampleTest@13c27452]" name="login" duration-ms="9020" started-at="2020-06-20T10:30:23Z" description="login" finished-at="2020-06-20T10:30:32Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.amzon.com.SampleTest@7b69c6ba]" name="login" duration-ms="42224" started-at="2020-06-20T12:37:50Z" description="login" finished-at="2020-06-20T12:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="search()[pri:0, instance:com.amzon.com.SampleTest@13c27452]" name="search" duration-ms="9003" started-at="2020-06-20T10:30:33Z" description="search for flights" depends-on-methods="com.amzon.com.SampleTest.login" finished-at="2020-06-20T10:30:42Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:com.amzon.com.SampleTest@7b69c6ba]" name="search" duration-ms="9004" started-at="2020-06-20T12:38:33Z" description="search for flights" depends-on-methods="com.amzon.com.SampleTest.login" finished-at="2020-06-20T12:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="searching()[pri:0, instance:com.amzon.com.SampleTest@13c27452]" name="searching" duration-ms="5" started-at="2020-06-20T10:30:42Z" description="search for tide" depends-on-methods="com.amzon.com.SampleTest.login" finished-at="2020-06-20T10:30:42Z">
+        <test-method status="PASS" signature="searching()[pri:0, instance:com.amzon.com.SampleTest@7b69c6ba]" name="searching" duration-ms="7" started-at="2020-06-20T12:38:42Z" description="search for tide" depends-on-methods="com.amzon.com.SampleTest.login" finished-at="2020-06-20T12:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searching -->
-        <test-method status="PASS" signature="select()[pri:0, instance:com.amzon.com.SampleTest@13c27452]" name="select" duration-ms="1" started-at="2020-06-20T10:30:42Z" description="select flight" depends-on-methods="com.amzon.com.SampleTest.search" finished-at="2020-06-20T10:30:42Z">
+        <test-method status="PASS" signature="select()[pri:0, instance:com.amzon.com.SampleTest@7b69c6ba]" name="select" duration-ms="4" started-at="2020-06-20T12:38:42Z" description="select flight" depends-on-methods="com.amzon.com.SampleTest.search" finished-at="2020-06-20T12:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select -->
-        <test-method status="PASS" signature="selecting()[pri:0, instance:com.amzon.com.SampleTest@13c27452]" name="selecting" duration-ms="2" started-at="2020-06-20T10:30:42Z" description="select new flight" depends-on-methods="com.amzon.com.SampleTest.search" finished-at="2020-06-20T10:30:42Z">
+        <test-method status="PASS" signature="selecting()[pri:0, instance:com.amzon.com.SampleTest@7b69c6ba]" name="selecting" duration-ms="2" started-at="2020-06-20T12:38:42Z" description="select new flight" depends-on-methods="com.amzon.com.SampleTest.search" finished-at="2020-06-20T12:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selecting -->
-        <test-method status="PASS" signature="book()[pri:0, instance:com.amzon.com.SampleTest@13c27452]" name="book" duration-ms="15009" started-at="2020-06-20T10:30:43Z" description="book flight" depends-on-methods="com.amzon.com.SampleTest.select" finished-at="2020-06-20T10:30:58Z">
+        <test-method status="PASS" signature="book()[pri:0, instance:com.amzon.com.SampleTest@7b69c6ba]" name="book" duration-ms="15018" started-at="2020-06-20T12:38:42Z" description="book flight" depends-on-methods="com.amzon.com.SampleTest.select" finished-at="2020-06-20T12:38:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- book -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.amzon.com.SampleTest@13c27452]" name="logout" duration-ms="8902" started-at="2020-06-20T10:30:58Z" description="logout" depends-on-methods="com.amzon.com.SampleTest.book" finished-at="2020-06-20T10:31:06Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.amzon.com.SampleTest@7b69c6ba]" name="logout" duration-ms="8902" started-at="2020-06-20T12:38:57Z" description="logout" depends-on-methods="com.amzon.com.SampleTest.book" finished-at="2020-06-20T12:39:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.amzon.com.SampleTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

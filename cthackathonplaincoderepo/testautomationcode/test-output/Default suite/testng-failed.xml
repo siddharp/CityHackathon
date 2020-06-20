@@ -3,13 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amzon.com.Login">
+      <class name="com.amzon.com.SampleTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="f"/>
+          <include name="login"/>
+          <include name="search"/>
+          <include name="selecting"/>
+          <include name="book"/>
+          <include name="searching"/>
+          <include name="select"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- com.amzon.com.Login -->
+      </class> <!-- com.amzon.com.SampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
